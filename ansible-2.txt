@@ -1,0 +1,41 @@
+1  ll
+    2  mkdir test
+    3  ll
+    4  cd test/
+    5  ls
+    6  cat >data.txt
+    7  cat >emp.txt
+    8  ll
+    9  -rw-rw-r-- 1 ubuntu ubuntu   21 Feb 17 06:49 data.txt
+   10  ll
+   11  sudo chmod 777 emp.txt
+   12  ll
+   13  sudo chmod 700 emp.txt
+   14  ll
+   15  sudo chmod u-wx emp.txt
+   16  ll
+   17  cat emp.txt
+   18  nano emp.txt
+   19  sudo apt-get update
+   20  python --v;pypyth
+   21  python --version
+   22  python
+   23  python3 --version
+   24  python
+   25  python3
+   26  cd ..
+   27  sudo apt-get update
+   28  sudo apt-get install ansible
+   29  cd /etc/
+   30  cd ansible/
+   31  ll
+   32  sudo nano hosts
+   33  cd ~
+   34  cd test/
+   35  ls
+   36  sudo nano code1.py
+   37  ll
+   38  python code1.py
+   39  sudo nano code1.py
+   40  python code1.py
+   41  sudo nano code1.py
